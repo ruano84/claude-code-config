@@ -1,0 +1,51 @@
+# Credentials and secrets
+.credentials.json
+*.env
+*.key
+*.pem
+
+# Runtime/cache data
+cache/
+image-cache/
+paste-cache/
+shell-snapshots/
+session-env/
+sessions/
+debug/
+telemetry/
+statsig/
+downloads/
+stats-cache.json
+mcp-needs-auth-cache.json
+
+# History and large data files
+history.jsonl
+file-history/
+
+# Plans and tasks (ephemeral work state)
+plans/
+tasks/
+todos/
+
+# Backups
+backups/
+
+# Per-project session transcripts (large, machine-specific, privacy-sensitive)
+projects/
+
+# Plugin machine-state (re-fetchable or machine-specific)
+plugins/cache/
+plugins/data/
+plugins/repos/
+plugins/marketplaces/
+plugins/*-cache.json
+plugins/blocklist.json
+
+# Todos (runtime state)
+tasks/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
