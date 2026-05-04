@@ -1,5 +1,3 @@
-# .claude
-
 Personal Claude Code configuration directory.
 
 ## Contents
